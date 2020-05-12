@@ -1,0 +1,83 @@
+
+.main{
+    padding: 20px;
+}
+
+main h1{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.h1-content{
+    max-width: 120px;
+    margin-bottom: 15px;
+}
+
+.action, .info-name{
+    font-size: 15px;
+}
+
+.action{
+    display: flex;
+    margin-bottom: 8px;
+    text-decoration: none;
+    color: white;
+}
+
+.action:last-child{
+    margin-bottom: 12px;
+}
+
+
+.info-block{
+    margin-bottom: 5px;
+}
+
+.action-icon{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 2px solid #F92251;
+}
+
+.play{
+    background-color:#F92251;
+    position: relative;
+}
+
+.play img, .later img{
+    width: auto;
+    height: 6px;
+    top: 5px;
+    position: absolute;
+}
+
+.play img{
+    left: 6px;
+}
+
+.later img{
+    left: 5px;
+}
+
+.inverted{
+    filter: invert(99%);
+}
+
+.later{
+    position: relative;
+}
+
+.star{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+}
+

@@ -1,0 +1,58 @@
+
+.sign-up{
+    background: linear-gradient(0deg, rgba(9, 9, 9, 0.465718), rgba(9, 9, 9, 0.465718)), #1F1F2F;
+    padding: 30px 20px 40px;
+}
+
+.sign-up__title{
+    margin-bottom: 20px;
+}
+
+.form{
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.sign-up-form-input{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.sign-up__input{
+    width: 100%;
+    border-radius: 10px;
+    padding: 9px 39px;
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+.sign-up__input::placeholder{
+    color: #82868E;
+}
+
+.sign-up-form-icon{
+    position: absolute;
+    width: 13px;
+    height: auto;
+    left: 12px;
+}
+
+.sign-up-form-icon-name{
+    top: 9px;
+}
+
+.sign-up-form-icon-email{
+    top: 11px;
+}
+
+.sign-up__button{
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+    padding: 9px;
+    text-transform: uppercase;
+    border: none;
+    background-color: #F92251;
+
+}

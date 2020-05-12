@@ -1,0 +1,21 @@
+.footer{
+    background-color: #404754;
+    padding: 20px;
+}
+.footer-links{
+    margin-bottom: 18px;
+}
+
+.footer__link{
+    margin-bottom: 8px;
+}
+
+.footer__link a, .copyright{
+    color: #BAC5D3;
+}
+
+.footer__link:last-child{
+    margin-bottom: 0;
+}
+
+
